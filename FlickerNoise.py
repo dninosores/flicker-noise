@@ -11,11 +11,11 @@ KNOB = 'position'
 AMPLITUDE = 0.6
 # Raises center of wave (0)
 OFFSET = 0
-# Lower values = messier, 0.1 default
+# Controls messiness of curve
 NOISE_FREQ = 0.1
-# Higher vales = faster, use OSC_FREQ for this though (0.8) default
+# Higher vales = faster, but OSC_FREQ is more predictable (0.8) default
 NOISE_AMP = 0.8
-# Lower values = slower, 0.07 default
+# Higher vales = faster, 0.07 default
 OSC_FREQ = 0.07
 
 
